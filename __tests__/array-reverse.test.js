@@ -9,4 +9,8 @@ describe('reverseArray', () => {
     expect(reverseArray(test)).toEqual(test.reverse());
     expect(reverseArray(test2)).toEqual(test2.reverse());
   });
+
+  it('doesnt not reverse an array', () => {
+    expect(reverseArray(test)).not.toBe(test);
+  });
 });
