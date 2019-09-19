@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1568763828042" clover="3.2.0">
-  <project timestamp="1568763828042" name="All files">
-    <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="12" coveredelements="12" complexity="0" loc="10" ncloc="10" packages="2" files="2" classes="2"/>
+<coverage generated="1568916426431" clover="3.2.0">
+  <project timestamp="1568916426431" name="All files">
+    <metrics statements="21" coveredstatements="21" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3" elements="30" coveredelements="30" complexity="0" loc="21" ncloc="21" packages="3" files="3" classes="3"/>
+    <package name="arrayBinarySearch">
+      <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <file name="array-binary-search.js" path="/home/hoojacks/alchemy/career-track/data-structures-and-algorithms/challenges/arrayBinarySearch/array-binary-search.js">
+        <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="8" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="arrayReverse">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="array-reverse.js" path="/home/hoojacks/alchemy/career-track/data-structures-and-algorithms/challenges/arrayReverse/array-reverse.js">
