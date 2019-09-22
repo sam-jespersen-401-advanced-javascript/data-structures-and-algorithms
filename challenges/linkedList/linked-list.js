@@ -9,11 +9,11 @@ class LinkedList {
     if(!this.head) {
       this.head = newNode;
     } else {
-      let lastNode = this.head;
-      while(lastNode.next) {
-        lastNode = lastNode.next;
+      let currentNode = this.head;
+      while(currentNode.next) {
+        currentNode = currentNode.next;
       }
-      lastNode.next = newNode;
+      currentNode.next = newNode;
 
     }
   }
@@ -22,14 +22,8 @@ class LinkedList {
     let currentNode = this.head;
     let done = false;
     while(!done) {
-      if(currentNode.value === val) {
-        return true;
-      }
-      if(!currentNode.next) {
-        done = true;
-      } else {
-        currentNode = currentNode.next;
-      }
+      if(currentNode.value === val) return true;
+      currentNode.next ? currentNode = currentNode.next : done = true;
     }
     return false;
   }
