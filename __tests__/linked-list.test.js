@@ -61,6 +61,10 @@ describe('linked lists', () => {
     linkedList.append('val4');
     linkedList.insertBefore('val4', 'val3.5');
     expect(linkedList.head.next.next.next.value).toBe('val3.5');
+
+    linkedList.insertBefore('val1', 'val0');
+    expect(linkedList.head.value).toBe('val0');
+  
   });
 
   it('insert new val after given value', () => {
@@ -69,8 +73,11 @@ describe('linked lists', () => {
     linkedList.append('val2');
     linkedList.append('val3');
     linkedList.append('val4');
-    linkedList.insertAfter('val4', 'val3.5');
-    expect(linkedList.head.next.next.next.next.value).toBe('val3.5');
+    linkedList.insertAfter('val4', 'val5');
+    expect(linkedList.head.next.next.next.next.value).toBe('val5');
+
+    linkedList.insertAfter('val1', 'val1.5');
+    expect(linkedList.head.next.value).toBe('val1.5');
   });
 
 

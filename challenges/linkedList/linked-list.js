@@ -45,12 +45,19 @@ class LinkedList {
   }
 
   insertBefore(val, newVal) {
-    let foundNode = this.head;
-    while(foundNode.next.value !== val) {
-      foundNode = foundNode.next;
+
+    if(val === this.head.value) {
+      let newNode = new Node(newVal, this.head);
+      this.head = newNode;
+    } else {
+      let foundNode = this.head;
+      while(foundNode.next.value !== val) {
+        foundNode = foundNode.next;
+      }
+
+      let newNode = new Node(newVal, foundNode.next);
+      foundNode.next = newNode;
     }
-    let newNode = new Node(newVal, foundNode.next);
-    foundNode.next = newNode;
   }
 
   insertAfter(val, newVal) {
@@ -59,10 +66,7 @@ class LinkedList {
       foundNode = foundNode.next;
     }
 
-    let next;
-    foundNode.next ? next = foundNode.next : next = null;
-
-    let newNode = new Node(newVal, next);
+    let newNode = new Node(newVal, foundNode.next ? foundNode.next : null);
     foundNode.next = newNode;
   }
 }
