@@ -2,9 +2,11 @@ class LinkedList {
 
   constructor() {
     this.head = null;
+    this.size = 0;
   }
 
   append(val) {
+    this.size++;
     let newNode = new Node(val, null);
     if(!this.head) {
       this.head = newNode;
@@ -19,6 +21,7 @@ class LinkedList {
   }
 
   insert(val) {
+    this.size++;
     let newNode = new Node(val, this.head);
     this.head = newNode;
   }
@@ -45,6 +48,7 @@ class LinkedList {
   }
 
   insertBefore(val, newVal) {
+    this.size++;
 
     if(val === this.head.value) {
       let newNode = new Node(newVal, this.head);
@@ -61,6 +65,8 @@ class LinkedList {
   }
 
   insertAfter(val, newVal) {
+    this.size++;
+
     let foundNode = this.head;
     while(foundNode.value !== val) {
       foundNode = foundNode.next;
@@ -68,6 +74,24 @@ class LinkedList {
 
     let newNode = new Node(newVal, foundNode.next ? foundNode.next : null);
     foundNode.next = newNode;
+  }
+
+  kthFromEnd(k) {
+    const index = this.size - k;
+    if(index < 0) {
+      throw new Error('list too short');
+    }
+    if(index === 0) {
+      return this.head.value;
+    }
+
+    let currentNode = this.head;
+    let round = 1;
+    while(round < index) {
+      currentNode = currentNode.next;
+      round++;
+    }
+    return currentNode.value;
   }
 }
 
