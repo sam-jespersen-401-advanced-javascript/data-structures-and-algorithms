@@ -4,7 +4,7 @@ class LinkedList {
     this.head = null;
   }
 
-  insert(val) {
+  append(val) {
     let newNode = new Node(val, null);
     if(!this.head) {
       this.head = newNode;
@@ -16,6 +16,11 @@ class LinkedList {
       currentNode.next = newNode;
 
     }
+  }
+
+  insert(val) {
+    let newNode = new Node(val, this.head);
+    this.head = newNode;
   }
 
   includes(val) {
