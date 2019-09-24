@@ -43,6 +43,28 @@ class LinkedList {
     res += `${currentNode.value}`;
     return res;
   }
+
+  insertBefore(val, newVal) {
+    let foundNode = this.head;
+    while(foundNode.next.value !== val) {
+      foundNode = foundNode.next;
+    }
+    let newNode = new Node(newVal, foundNode.next);
+    foundNode.next = newNode;
+  }
+
+  insertAfter(val, newVal) {
+    let foundNode = this.head;
+    while(foundNode.value !== val) {
+      foundNode = foundNode.next;
+    }
+
+    let next;
+    foundNode.next ? next = foundNode.next : next = null;
+
+    let newNode = new Node(newVal, next);
+    foundNode.next = newNode;
+  }
 }
 
 class Node {

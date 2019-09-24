@@ -17,6 +17,10 @@ describe('linked lists', () => {
     expect(linkedList.head.value).toBe('val1');
     expect(linkedList.head.next.value).toBe('val2');
 
+    linkedList.append('val3');
+    linkedList.append('val4');
+    expect(linkedList.head.next.next.next.value).toBe('val4');
+
 
   });
 
@@ -48,5 +52,28 @@ describe('linked lists', () => {
     linkedList.insert('val4');
     expect(linkedList.head.value).toBe('val4');
   });
+
+  it('insert new val before given value', () => {
+    const linkedList = new LinkedList();
+    linkedList.append('val1');
+    linkedList.append('val2');
+    linkedList.append('val3');
+    linkedList.append('val4');
+    linkedList.insertBefore('val4', 'val3.5');
+    expect(linkedList.head.next.next.next.value).toBe('val3.5');
+  });
+
+  it('insert new val after given value', () => {
+    const linkedList = new LinkedList();
+    linkedList.append('val1');
+    linkedList.append('val2');
+    linkedList.append('val3');
+    linkedList.append('val4');
+    linkedList.insertAfter('val4', 'val3.5');
+    expect(linkedList.head.next.next.next.next.value).toBe('val3.5');
+  });
+
+
+
 });
 
