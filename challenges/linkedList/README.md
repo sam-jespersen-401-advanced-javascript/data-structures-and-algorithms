@@ -13,9 +13,9 @@ Using while loops to traverse the list.
 
 `LinkedList` methods:
 
-### insert(string)
+### append(string)
 * takes a `string` as an argument
-* creates a new `Node` at the end of the list with a `value` of the `string` passed in
+* creates a new `Node` at the beginning of the list with a `value` of the `string` passed in
 
 ### includes(string)
 * takes a `string` as an argument
@@ -23,3 +23,15 @@ Using while loops to traverse the list.
 
 ### toString()
 * returns the values of all nodes in the list concatenated into a string, e.g. `'value1 value2 value3'`
+
+### insert(string)
+* takes a `string` as an argument
+* creates a new `Node` at the end of the list with a `value` of the `string` passed in
+
+### insertBefore(string, string)
+* takes two `strings` as arguments
+* finds the `Node` with the `value` equaling the first `string` and creates a new `Node` before it in the list with the `value` equaling to the second `string`
+
+### insertAfter(string, string)
+* takes two `strings` as arguments
+* finds the `Node` with the `value` equaling the first `string` and creates a new `Node` after it in the list with the `value` equaling to the second `string`
