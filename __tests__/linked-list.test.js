@@ -64,7 +64,7 @@ describe('linked lists', () => {
 
     linkedList.insertBefore('val1', 'val0');
     expect(linkedList.head.value).toBe('val0');
-  
+
   });
 
   it('insert new val after given value', () => {
@@ -80,7 +80,33 @@ describe('linked lists', () => {
     expect(linkedList.head.next.value).toBe('val1.5');
   });
 
+  const linkedList = new LinkedList();
+  linkedList.append('val1');
 
+  expect(linkedList.kthFromEnd(0)).toBe('val1');
+
+  linkedList.append('val2');
+  linkedList.append('val3');
+  linkedList.append('val4');
+  linkedList.append('val5');
+  linkedList.append('val6');
+  linkedList.append('val7');
+  linkedList.append('val8');
+
+  it('kth from the end', () => {
+    expect(linkedList.kthFromEnd(1)).toBe('val7');
+    expect(linkedList.kthFromEnd(3)).toBe('val5');
+    expect(linkedList.kthFromEnd(8)).toBe('val1');
+    expect(linkedList.kthFromEnd(0)).toBe('val8');
+
+
+    expect(() => {
+      linkedList.kthFromEnd(9);
+    }).toThrow('list too short');
+
+
+
+  });
 
 });
 
