@@ -4,7 +4,7 @@ class LinkedList {
     this.head = null;
   }
 
-  insert(val) {
+  append(val) {
     let newNode = new Node(val, null);
     if(!this.head) {
       this.head = newNode;
@@ -16,6 +16,11 @@ class LinkedList {
       currentNode.next = newNode;
 
     }
+  }
+
+  insert(val) {
+    let newNode = new Node(val, this.head);
+    this.head = newNode;
   }
 
   includes(val) {
@@ -37,6 +42,32 @@ class LinkedList {
     }
     res += `${currentNode.value}`;
     return res;
+  }
+
+  insertBefore(val, newVal) {
+
+    if(val === this.head.value) {
+      let newNode = new Node(newVal, this.head);
+      this.head = newNode;
+    } else {
+      let foundNode = this.head;
+      while(foundNode.next.value !== val) {
+        foundNode = foundNode.next;
+      }
+
+      let newNode = new Node(newVal, foundNode.next);
+      foundNode.next = newNode;
+    }
+  }
+
+  insertAfter(val, newVal) {
+    let foundNode = this.head;
+    while(foundNode.value !== val) {
+      foundNode = foundNode.next;
+    }
+
+    let newNode = new Node(newVal, foundNode.next ? foundNode.next : null);
+    foundNode.next = newNode;
   }
 }
 
