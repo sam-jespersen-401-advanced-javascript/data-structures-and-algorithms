@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1569363575271" clover="3.2.0">
-  <project timestamp="1569363575272" name="All files">
-    <metrics statements="76" coveredstatements="76" conditionals="20" coveredconditionals="20" methods="12" coveredmethods="12" elements="108" coveredelements="108" complexity="0" loc="76" ncloc="76" packages="4" files="4" classes="4"/>
+<coverage generated="1570146833377" clover="3.2.0">
+  <project timestamp="1570146833378" name="All files">
+    <metrics statements="93" coveredstatements="93" conditionals="28" coveredconditionals="25" methods="13" coveredmethods="13" elements="134" coveredelements="131" complexity="0" loc="93" ncloc="93" packages="5" files="5" classes="5"/>
     <package name="arrayBinarySearch">
       <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
       <file name="array-binary-search.js" path="/home/hoojacks/alchemy/career-track/data-structures-and-algorithms/challenges/arrayBinarySearch/array-binary-search.js">
@@ -45,16 +45,16 @@
       <metrics statements="55" coveredstatements="55" conditionals="14" coveredconditionals="14" methods="9" coveredmethods="9"/>
       <file name="linked-list.js" path="/home/hoojacks/alchemy/career-track/data-structures-and-algorithms/challenges/linkedList/linked-list.js">
         <metrics statements="55" coveredstatements="55" conditionals="14" coveredconditionals="14" methods="9" coveredmethods="9"/>
-        <line num="4" count="8" type="stmt"/>
-        <line num="5" count="8" type="stmt"/>
-        <line num="9" count="31" type="stmt"/>
-        <line num="10" count="31" type="stmt"/>
-        <line num="11" count="31" type="cond" truecount="2" falsecount="0"/>
-        <line num="12" count="7" type="stmt"/>
-        <line num="14" count="24" type="stmt"/>
-        <line num="15" count="24" type="stmt"/>
-        <line num="16" count="37" type="stmt"/>
-        <line num="18" count="24" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="9" count="57" type="stmt"/>
+        <line num="10" count="57" type="stmt"/>
+        <line num="11" count="57" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="10" type="stmt"/>
+        <line num="14" count="47" type="stmt"/>
+        <line num="15" count="47" type="stmt"/>
+        <line num="16" count="128" type="stmt"/>
+        <line num="18" count="47" type="stmt"/>
         <line num="24" count="1" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
         <line num="26" count="1" type="stmt"/>
@@ -64,13 +64,13 @@
         <line num="33" count="9" type="cond" truecount="2" falsecount="0"/>
         <line num="34" count="7" type="cond" truecount="2" falsecount="0"/>
         <line num="36" count="1" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
-        <line num="41" count="1" type="stmt"/>
-        <line num="42" count="1" type="stmt"/>
-        <line num="43" count="3" type="stmt"/>
-        <line num="44" count="3" type="stmt"/>
-        <line num="46" count="1" type="stmt"/>
-        <line num="47" count="1" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="43" count="15" type="stmt"/>
+        <line num="44" count="15" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
         <line num="51" count="2" type="stmt"/>
         <line num="53" count="2" type="cond" truecount="2" falsecount="0"/>
         <line num="54" count="1" type="stmt"/>
@@ -97,9 +97,32 @@
         <line num="91" count="17" type="stmt"/>
         <line num="92" count="17" type="stmt"/>
         <line num="94" count="4" type="stmt"/>
-        <line num="100" count="36" type="stmt"/>
-        <line num="101" count="36" type="stmt"/>
-        <line num="105" count="1" type="stmt"/>
+        <line num="100" count="62" type="stmt"/>
+        <line num="101" count="62" type="stmt"/>
+        <line num="105" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="llMerge">
+      <metrics statements="17" coveredstatements="17" conditionals="8" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <file name="ll-merge.js" path="/home/hoojacks/alchemy/career-track/data-structures-and-algorithms/challenges/llMerge/ll-merge.js">
+        <metrics statements="17" coveredstatements="17" conditionals="8" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="11" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="18" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="22" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
       </file>
     </package>
   </project>
