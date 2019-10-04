@@ -32,6 +32,40 @@ class Stack {
 
 }
 
+class Queue {
+  constructor() {
+    this.front = null;
+  }
+
+  enqueue(value) {
+    const newNode = new Node(value);
+    if(!this.front) {
+      this.front = newNode;
+    } else {
+
+      let currentNode = this.front;
+      while(currentNode.next) {
+        currentNode = currentNode.next;
+      }
+
+      currentNode.next = newNode;
+    }
+  }
+
+  dequeue() {
+    const front = this.front;
+    this.front = front.next;
+    return front.value;
+  }
+
+  peek() {
+    return this.front.value;
+  }
+
+}
+
 module.exports = {
-  Stack
+  Stack,
+  Queue
+
 };
