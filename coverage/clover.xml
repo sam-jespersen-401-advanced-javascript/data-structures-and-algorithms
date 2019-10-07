@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1570483304730" clover="3.2.0">
-  <project timestamp="1570483304730" name="All files">
-    <metrics statements="158" coveredstatements="156" conditionals="49" coveredconditionals="45" methods="29" coveredmethods="29" elements="236" coveredelements="230" complexity="0" loc="158" ncloc="158" packages="8" files="8" classes="8"/>
+<coverage generated="1570487376148" clover="3.2.0">
+  <project timestamp="1570487376148" name="All files">
+    <metrics statements="185" coveredstatements="181" conditionals="73" coveredconditionals="67" methods="31" coveredmethods="31" elements="289" coveredelements="279" complexity="0" loc="185" ncloc="185" packages="9" files="9" classes="9"/>
     <package name="arrayBinarySearch">
       <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
       <file name="array-binary-search.js" path="/home/hoojacks/alchemy/career-track/data-structures-and-algorithms/challenges/arrayBinarySearch/array-binary-search.js">
@@ -157,6 +157,37 @@
         <line num="29" count="1" type="stmt"/>
       </file>
     </package>
+    <package name="multiBracketValidation">
+      <metrics statements="25" coveredstatements="24" conditionals="22" coveredconditionals="21" methods="2" coveredmethods="2"/>
+      <file name="multi-bracket-validation.js" path="/home/hoojacks/alchemy/career-track/data-structures-and-algorithms/challenges/multiBracketValidation/multi-bracket-validation.js">
+        <metrics statements="25" coveredstatements="24" conditionals="22" coveredconditionals="21" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="6" count="107" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="91" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="84" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="67" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="59" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="42" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="33" type="stmt"/>
+        <line num="19" count="12" type="stmt"/>
+        <line num="21" count="12" type="stmt"/>
+        <line num="22" count="83" type="stmt"/>
+        <line num="23" count="83" type="stmt"/>
+        <line num="25" count="83" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="26" type="stmt"/>
+        <line num="30" count="83" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="24" type="cond" truecount="1" falsecount="1"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="36" count="24" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="18" type="stmt"/>
+        <line num="39" count="6" type="stmt"/>
+        <line num="44" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="5" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="queueWithStacks">
       <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
       <file name="queue-with-stacks.js" path="/home/hoojacks/alchemy/career-track/data-structures-and-algorithms/challenges/queueWithStacks/queue-with-stacks.js">
@@ -179,33 +210,35 @@
       </file>
     </package>
     <package name="stacksAndQueues">
-      <metrics statements="24" coveredstatements="24" conditionals="4" coveredconditionals="4" methods="9" coveredmethods="9"/>
+      <metrics statements="26" coveredstatements="25" conditionals="6" coveredconditionals="5" methods="9" coveredmethods="9"/>
       <file name="stacks-and-queues.js" path="/home/hoojacks/alchemy/career-track/data-structures-and-algorithms/challenges/stacksAndQueues/stacks-and-queues.js">
-        <metrics statements="24" coveredstatements="24" conditionals="4" coveredconditionals="4" methods="9" coveredmethods="9"/>
-        <line num="3" count="33" type="stmt"/>
-        <line num="4" count="33" type="stmt"/>
-        <line num="11" count="3" type="stmt"/>
-        <line num="16" count="29" type="stmt"/>
-        <line num="17" count="29" type="cond" truecount="2" falsecount="0"/>
-        <line num="18" count="29" type="stmt"/>
-        <line num="22" count="28" type="stmt"/>
-        <line num="23" count="28" type="stmt"/>
-        <line num="24" count="28" type="stmt"/>
-        <line num="25" count="28" type="stmt"/>
-        <line num="30" count="5" type="stmt"/>
-        <line num="37" count="1" type="stmt"/>
-        <line num="41" count="4" type="stmt"/>
-        <line num="42" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="43" count="2" type="stmt"/>
-        <line num="46" count="2" type="stmt"/>
+        <metrics statements="26" coveredstatements="25" conditionals="6" coveredconditionals="5" methods="9" coveredmethods="9"/>
+        <line num="3" count="59" type="stmt"/>
+        <line num="4" count="59" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="16" count="55" type="stmt"/>
+        <line num="17" count="55" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="55" type="stmt"/>
+        <line num="22" count="46" type="stmt"/>
+        <line num="23" count="46" type="stmt"/>
+        <line num="24" count="46" type="stmt"/>
+        <line num="25" count="46" type="stmt"/>
+        <line num="30" count="29" type="cond" truecount="1" falsecount="1"/>
+        <line num="31" count="29" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="45" count="4" type="stmt"/>
+        <line num="46" count="4" type="cond" truecount="2" falsecount="0"/>
         <line num="47" count="2" type="stmt"/>
-        <line num="48" count="1" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
         <line num="51" count="2" type="stmt"/>
-        <line num="56" count="3" type="stmt"/>
-        <line num="57" count="3" type="stmt"/>
-        <line num="58" count="3" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="60" count="3" type="stmt"/>
+        <line num="61" count="3" type="stmt"/>
         <line num="62" count="3" type="stmt"/>
-        <line num="67" count="2" type="stmt"/>
+        <line num="66" count="3" type="stmt"/>
+        <line num="71" count="3" type="stmt"/>
       </file>
     </package>
   </project>
