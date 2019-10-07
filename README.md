@@ -4,3 +4,6 @@
 * [LinkedList](./challenges/linkedList)
 * [Linked List Merge](./challenges/llMerge)
 * [Stacks and Queues](./challenges/stacksAndQueues)
+* [Queues with Stacks](./challenges/queueWithStacks)
+* [FIFO Animal Shelter](./challenges/fifoAnimalShelter)
+* [Multi Bracket Verification](./challenges/multiBracketVerification)
