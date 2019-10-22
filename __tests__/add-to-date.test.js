@@ -13,7 +13,7 @@ describe('add to date', () => {
     const date4 = new Date(1999, 10, 30, 6, 6, 6);
     expect(addToDate(date4, '1M')).toEqual(new Date(1999, 11, 30, 6, 6, 6));
     const date5 = new Date(1985, 5, 17, 0, 0, 0);
-    expect(addToDate(date5, '1h')).toEqual(new Date(1985, 5, 17, 1, 0, 0));
+    expect(addToDate(date5, '10h')).toEqual(new Date(1985, 5, 17, 10, 0, 0));
     const date6 = new Date(1999, 10, 30, 6, 6, 6);
     expect(addToDate(date6, '1m')).toEqual(new Date(1999, 10, 30, 6, 7, 6));
     const date7 = new Date(1999, 10, 30, 6, 6, 6);
