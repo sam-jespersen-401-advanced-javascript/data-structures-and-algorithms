@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1571952776690" clover="3.2.0">
-  <project timestamp="1571952776690" name="All files">
-    <metrics statements="225" coveredstatements="221" conditionals="89" coveredconditionals="83" methods="47" coveredmethods="47" elements="361" coveredelements="351" complexity="0" loc="225" ncloc="225" packages="12" files="12" classes="12"/>
+<coverage generated="1573262204359" clover="3.2.0">
+  <project timestamp="1573262204359" name="All files">
+    <metrics statements="236" coveredstatements="232" conditionals="91" coveredconditionals="85" methods="48" coveredmethods="48" elements="375" coveredelements="365" complexity="0" loc="236" ncloc="236" packages="13" files="13" classes="13"/>
     <package name="addToDate">
       <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
       <file name="addToDate.js" path="/home/hoojacks/alchemy/career-track/data-structures-and-algorithms/challenges/addToDate/addToDate.js">
@@ -103,6 +103,23 @@
         <line num="51" count="1" type="stmt"/>
         <line num="53" count="1" type="stmt"/>
         <line num="63" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="insertionSort">
+      <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="insertion-sort.js" path="/home/hoojacks/alchemy/career-track/data-structures-and-algorithms/challenges/insertionSort/insertion-sort.js">
+        <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="7" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="9" type="stmt"/>
+        <line num="9" count="9" type="stmt"/>
+        <line num="11" count="8" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
       </file>
     </package>
     <package name="linkedList">
@@ -264,7 +281,7 @@
         <line num="57" count="2" type="stmt"/>
         <line num="58" count="8" type="cond" truecount="2" falsecount="0"/>
         <line num="59" count="8" type="stmt"/>
-        <line num="66" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
       </file>
     </package>
     <package name="stacksAndQueues">
