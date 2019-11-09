@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1573265809454" clover="3.2.0">
-  <project timestamp="1573265809455" name="All files">
-    <metrics statements="269" coveredstatements="265" conditionals="99" coveredconditionals="93" methods="50" coveredmethods="50" elements="418" coveredelements="408" complexity="0" loc="269" ncloc="269" packages="14" files="14" classes="14"/>
+<coverage generated="1573329505582" clover="3.2.0">
+  <project timestamp="1573329505582" name="All files">
+    <metrics statements="289" coveredstatements="285" conditionals="103" coveredconditionals="97" methods="53" coveredmethods="53" elements="445" coveredelements="435" complexity="0" loc="289" ncloc="289" packages="15" files="15" classes="15"/>
     <package name="addToDate">
       <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
       <file name="addToDate.js" path="/home/hoojacks/alchemy/career-track/data-structures-and-algorithms/challenges/addToDate/addToDate.js">
@@ -207,9 +207,9 @@
       </file>
     </package>
     <package name="mergeSort">
-      <metrics statements="33" coveredstatements="33" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <metrics statements="32" coveredstatements="32" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
       <file name="merge-sort.js" path="/home/hoojacks/alchemy/career-track/data-structures-and-algorithms/challenges/mergeSort/merge-sort.js">
-        <metrics statements="33" coveredstatements="33" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <metrics statements="32" coveredstatements="32" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="17" type="stmt"/>
         <line num="5" count="17" type="cond" truecount="2" falsecount="0"/>
@@ -241,8 +241,7 @@
         <line num="46" count="3" type="stmt"/>
         <line num="47" count="3" type="stmt"/>
         <line num="50" count="8" type="stmt"/>
-        <line num="51" count="8" type="stmt"/>
-        <line num="56" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
       </file>
     </package>
     <package name="multiBracketValidation">
@@ -295,6 +294,33 @@
         <line num="31" count="4" type="stmt"/>
         <line num="34" count="5" type="stmt"/>
         <line num="38" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="quickSort">
+      <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <file name="quick-sort.js" path="/home/hoojacks/alchemy/career-track/data-structures-and-algorithms/challenges/quickSort/quick-sort.js">
+        <metrics statements="21" coveredstatements="21" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="9" type="stmt"/>
+        <line num="4" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="9" count="9" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="8" type="stmt"/>
+        <line num="19" count="8" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="12" type="stmt"/>
+        <line num="30" count="12" type="stmt"/>
+        <line num="31" count="12" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
       </file>
     </package>
     <package name="set">
