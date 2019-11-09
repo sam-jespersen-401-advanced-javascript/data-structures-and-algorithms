@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1573262204359" clover="3.2.0">
-  <project timestamp="1573262204359" name="All files">
-    <metrics statements="236" coveredstatements="232" conditionals="91" coveredconditionals="85" methods="48" coveredmethods="48" elements="375" coveredelements="365" complexity="0" loc="236" ncloc="236" packages="13" files="13" classes="13"/>
+<coverage generated="1573265809454" clover="3.2.0">
+  <project timestamp="1573265809455" name="All files">
+    <metrics statements="269" coveredstatements="265" conditionals="99" coveredconditionals="93" methods="50" coveredmethods="50" elements="418" coveredelements="408" complexity="0" loc="269" ncloc="269" packages="14" files="14" classes="14"/>
     <package name="addToDate">
       <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
       <file name="addToDate.js" path="/home/hoojacks/alchemy/career-track/data-structures-and-algorithms/challenges/addToDate/addToDate.js">
@@ -204,6 +204,45 @@
         <line num="22" count="6" type="cond" truecount="1" falsecount="1"/>
         <line num="25" count="1" type="stmt"/>
         <line num="29" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="mergeSort">
+      <metrics statements="33" coveredstatements="33" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <file name="merge-sort.js" path="/home/hoojacks/alchemy/career-track/data-structures-and-algorithms/challenges/mergeSort/merge-sort.js">
+        <metrics statements="33" coveredstatements="33" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="17" type="stmt"/>
+        <line num="5" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="7" count="8" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="10" count="8" type="stmt"/>
+        <line num="11" count="8" type="stmt"/>
+        <line num="12" count="8" type="stmt"/>
+        <line num="14" count="17" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
+        <line num="22" count="8" type="stmt"/>
+        <line num="24" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="10" type="stmt"/>
+        <line num="28" count="10" type="stmt"/>
+        <line num="30" count="7" type="stmt"/>
+        <line num="31" count="7" type="stmt"/>
+        <line num="34" count="17" type="stmt"/>
+        <line num="37" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="5" type="stmt"/>
+        <line num="39" count="9" type="stmt"/>
+        <line num="40" count="9" type="stmt"/>
+        <line num="41" count="9" type="stmt"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="45" count="3" type="stmt"/>
+        <line num="46" count="3" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="50" count="8" type="stmt"/>
+        <line num="51" count="8" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
       </file>
     </package>
     <package name="multiBracketValidation">
