@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1571952776690" clover="3.2.0">
-  <project timestamp="1571952776690" name="All files">
-    <metrics statements="225" coveredstatements="221" conditionals="89" coveredconditionals="83" methods="47" coveredmethods="47" elements="361" coveredelements="351" complexity="0" loc="225" ncloc="225" packages="12" files="12" classes="12"/>
+<coverage generated="1573367101118" clover="3.2.0">
+  <project timestamp="1573367101119" name="All files">
+    <metrics statements="314" coveredstatements="310" conditionals="115" coveredconditionals="107" methods="59" coveredmethods="59" elements="488" coveredelements="476" complexity="0" loc="314" ncloc="314" packages="16" files="16" classes="16"/>
     <package name="addToDate">
       <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
       <file name="addToDate.js" path="/home/hoojacks/alchemy/career-track/data-structures-and-algorithms/challenges/addToDate/addToDate.js">
@@ -105,6 +105,55 @@
         <line num="63" count="1" type="stmt"/>
       </file>
     </package>
+    <package name="hashtable">
+      <metrics statements="26" coveredstatements="26" conditionals="12" coveredconditionals="10" methods="6" coveredmethods="6"/>
+      <file name="hashtable.js" path="/home/hoojacks/alchemy/career-track/data-structures-and-algorithms/challenges/hashtable/hashtable.js">
+        <metrics statements="26" coveredstatements="26" conditionals="12" coveredconditionals="10" methods="6" coveredmethods="6"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="8" count="9" type="stmt"/>
+        <line num="10" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="14" count="9" type="stmt"/>
+        <line num="15" count="9" type="stmt"/>
+        <line num="16" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="30" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="33" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="38" count="7" type="stmt"/>
+        <line num="40" count="7" type="stmt"/>
+        <line num="42" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="44" count="7" type="stmt"/>
+        <line num="45" count="7" type="cond" truecount="2" falsecount="0"/>
+        <line num="48" count="3" type="stmt"/>
+        <line num="54" count="29" type="stmt"/>
+        <line num="55" count="29" type="stmt"/>
+        <line num="56" count="111" type="stmt"/>
+        <line num="59" count="29" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="insertionSort">
+      <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="insertion-sort.js" path="/home/hoojacks/alchemy/career-track/data-structures-and-algorithms/challenges/insertionSort/insertion-sort.js">
+        <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="7" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="9" type="stmt"/>
+        <line num="9" count="9" type="stmt"/>
+        <line num="11" count="8" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="linkedList">
       <metrics statements="55" coveredstatements="55" conditionals="14" coveredconditionals="14" methods="9" coveredmethods="9"/>
       <file name="linked-list.js" path="/home/hoojacks/alchemy/career-track/data-structures-and-algorithms/challenges/linkedList/linked-list.js">
@@ -189,6 +238,44 @@
         <line num="29" count="1" type="stmt"/>
       </file>
     </package>
+    <package name="mergeSort">
+      <metrics statements="32" coveredstatements="32" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <file name="merge-sort.js" path="/home/hoojacks/alchemy/career-track/data-structures-and-algorithms/challenges/mergeSort/merge-sort.js">
+        <metrics statements="32" coveredstatements="32" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="17" type="stmt"/>
+        <line num="5" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="7" count="8" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="10" count="8" type="stmt"/>
+        <line num="11" count="8" type="stmt"/>
+        <line num="12" count="8" type="stmt"/>
+        <line num="14" count="17" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
+        <line num="22" count="8" type="stmt"/>
+        <line num="24" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="27" count="10" type="stmt"/>
+        <line num="28" count="10" type="stmt"/>
+        <line num="30" count="7" type="stmt"/>
+        <line num="31" count="7" type="stmt"/>
+        <line num="34" count="17" type="stmt"/>
+        <line num="37" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="5" type="stmt"/>
+        <line num="39" count="9" type="stmt"/>
+        <line num="40" count="9" type="stmt"/>
+        <line num="41" count="9" type="stmt"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="45" count="3" type="stmt"/>
+        <line num="46" count="3" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="50" count="8" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="multiBracketValidation">
       <metrics statements="25" coveredstatements="24" conditionals="22" coveredconditionals="21" methods="2" coveredmethods="2"/>
       <file name="multi-bracket-validation.js" path="/home/hoojacks/alchemy/career-track/data-structures-and-algorithms/challenges/multiBracketValidation/multi-bracket-validation.js">
@@ -241,6 +328,32 @@
         <line num="38" count="1" type="stmt"/>
       </file>
     </package>
+    <package name="quickSort">
+      <metrics statements="20" coveredstatements="20" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <file name="quick-sort.js" path="/home/hoojacks/alchemy/career-track/data-structures-and-algorithms/challenges/quickSort/quick-sort.js">
+        <metrics statements="20" coveredstatements="20" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="8" count="9" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="8" type="stmt"/>
+        <line num="18" count="8" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="12" type="stmt"/>
+        <line num="29" count="12" type="stmt"/>
+        <line num="30" count="12" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="set">
       <metrics statements="20" coveredstatements="20" conditionals="10" coveredconditionals="10" methods="13" coveredmethods="13"/>
       <file name="Set.js" path="/home/hoojacks/alchemy/career-track/data-structures-and-algorithms/challenges/set/Set.js">
@@ -264,7 +377,7 @@
         <line num="57" count="2" type="stmt"/>
         <line num="58" count="8" type="cond" truecount="2" falsecount="0"/>
         <line num="59" count="8" type="stmt"/>
-        <line num="66" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
       </file>
     </package>
     <package name="stacksAndQueues">
